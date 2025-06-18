@@ -1,33 +1,22 @@
 
-# QuCreate Streamlit Lab
+# AI-Q Score Streamlit Application
 
-This repository contains a Streamlit application for demonstrating the features and capabilities of the QuCreate platform.
+This Streamlit application calculates an AI-Q Score to help users understand their potential job displacement risk due to AI.
 
-## Features
-- Streamlit sidebar with a company logo.
-- Template for easy development.
-- Placeholder for adding custom code.
+## How to Run
 
-## Getting Started
+1.  Make sure you have Docker installed.
+2.  Clone this repository.
+3.  Build the Docker image: `docker build -t ai-q-score .`
+4.  Run the Docker container: `docker run -p 8501:8501 ai-q-score`
+5.  Open your browser and go to `http://localhost:8501`.
 
-### Prerequisites
-- Python 3.8 or later
-- Streamlit installed (see `requirements.txt`).
+## Application Pages
 
-### Installation
-1. Clone the repository
-2. Install dependencies:
-`pip install -r requirements.txt`
-
-### Running the Application
-1. Run the Streamlit app:
-
-### Development
-1. Modify the `app.py` file to add your custom code.
-2. Use the placeholder section (`# Code goes here`) to add new functionality.
-
-### Deployment
-- Deploy your Streamlit app using Streamlit Sharing, Docker, or any other platform supporting Python web applications.
+*   **Risk Assessment:** Calculate your overall AI-Q Score.
+*   **Systematic Risk Deep Dive:** Explore the systematic risk associated with different occupations.
+*   **Idiosyncratic Risk Breakdown:** Understand how your individual characteristics contribute to your AI-Q Score.
 
 ## License
-© 2025 QuantUniversity. All Rights Reserved. Educational use only. For licensing details, please contact QuantUniversity.
+
+© 2025 QuantUniversity. All Rights Reserved.
