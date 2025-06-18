@@ -9,6 +9,18 @@ def run_systematic_risk():
 
     occupation = st.selectbox("Select Occupation", ["Data Entry Clerk", "Software Engineer", "Senior Research Scientist", "Paralegal", "Other"])
 
+    def calculate_systematic_risk(occupation):
+        # This is a placeholder; in a real application, it would use a more complex calculation.
+        risk_mapping = {
+            "Data Entry Clerk": 80,
+            "Software Engineer": 30,
+            "Senior Research Scientist": 10,
+            "Paralegal": 65 #from the attached document
+        }
+
+        #If the input does not match return a neutral value to avoid an error
+        return risk_mapping.get(occupation,50)
+
     if occupation == "Other":
         st.markdown("Since the occupation is not in the list, the risk will default to a base value. To see accurate values, select one of the other options.")
         systematic_risk = 50
@@ -28,14 +40,4 @@ def run_systematic_risk():
     st.markdown("The risk is calculated as follows (placeholder):")
     st.markdown("Consult the documentation for detailed formula of Systematic Risk")
 
-    def calculate_systematic_risk(occupation):
-        # This is a placeholder; in a real application, it would use a more complex calculation.
-        risk_mapping = {
-            "Data Entry Clerk": 80,
-            "Software Engineer": 30,
-            "Senior Research Scientist": 10,
-            "Paralegal": 65 #from the attached document
-        }
-
-        #If the input does not match return a neutral value to avoid an error
-        return risk_mapping.get(occupation,50)
+    
