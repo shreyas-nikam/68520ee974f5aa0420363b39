@@ -31,12 +31,12 @@ The AI-Q Score is a comprehensive metric, combining **Systematic Risk** (inheren
 
     *   *Formula:*  AI-Q Score = Systematic Risk + Idiosyncratic Risk
 
-*   **Systematic Risk (H or H<sub>i</sub>):** Represents the risk inherent to a particular occupation due to automation. This is a dynamic index reflecting the macro-level automation hazard of an occupation, modified by prevailing economic conditions and the velocity of AI innovation.
+*   **Systematic Risk ($H$ or $H_I$):** Represents the risk inherent to a particular occupation due to automation. This is a dynamic index reflecting the macro-level automation hazard of an occupation, modified by prevailing economic conditions and the velocity of AI innovation.
 
     *   *Example:* Jobs involving routine tasks have higher Systematic Risk.
     *   *Formula:*  See individual page for details.
 
-*   **Idiosyncratic Risk (V or V<sub>i</sub>):** Represents the individual's specific vulnerability based on their human capital, employer's stability, and upskilling efforts. This is the granular, multi-factor assessment of an individual's vulnerability based on their specific human capital, their employer's stability, and their proactive upskilling efforts.
+*   **Idiosyncratic Risk ($V$ or $V_I$):** Represents the individual's specific vulnerability based on their human capital, employer's stability, and upskilling efforts. This is the granular, multi-factor assessment of an individual's vulnerability based on their specific human capital, their employer's stability, and their proactive upskilling efforts.
 
     *   *Example:* Individuals with higher education and more upskilling have lower Idiosyncratic Risk.
     *   *Formula:* See individual page for details.
