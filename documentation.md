@@ -3,9 +3,9 @@ summary: AI Risk Score Documentation
 feedback link: https://docs.google.com/forms/d/e/1FAIpQLSfWkOK-in_bMMoHSZfcIvAeO58PAH9wrDqcxnJABHaxiDqhSA/viewform?usp=sf_link
 environments: Web
 status: Published
-# AI-Q Score Lab Codelab: Understanding and Mitigating Job Displacement Risk
+# AI-Q Score Lab Codelab: Understanding and Mitigating Job Displacement Risk (streamlit  application)
 
-This codelab guides you through the AI-Q Score Lab application, a tool designed to help individuals understand and assess their potential job displacement risk due to the rise of Artificial Intelligence.  We'll explore the application's features, underlying concepts, and how you can use it to simulate and mitigate your risk. The AI-Q score is a novel approach to quantifying the risk of job displacement due to AI by combining systematic and idiosyncratic risks. By understanding the components and levers that affect your risk, you can make informed decisions about your career path and upskilling efforts.
+This codelab guides you through the AI-Q Score Lab application, a tool designed to help individuals understand and assess their potential job displacement risk due to the rise of Artificial Intelligence.  We'll explore the application's features, underlying concepts, and how you can use it to simulate and mitigate your risk. The AI-Q score is a novel approach to quantifying the risk of job displacement due to AI by combining systematic and idiosyncratic risks. By understanding the components and levers that affect your risk, you can make informed decisions about your career path and upskilling efforts. 
 
 ## Setting Up the Development Environment
 Duration: 00:05
